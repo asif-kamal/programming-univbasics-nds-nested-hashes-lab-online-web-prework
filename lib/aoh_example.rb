@@ -33,8 +33,7 @@ def aoh_lookup(aoh, row, key)
 end
 
 def aoh_update(aoh, row, key, new_value)
-  local_copy_of_aoh = assembled_aoh.dup
-      result = aoh_update(local_copy_of_aoh
-  local_copy_of_aoh[1][:name] = "Joelle van Dyne (PGOAT)"
+  infinite_jest = assembled_aoh.dup
+  infinite_jest[1][:name] = "Joelle van Dyne (PGOAT)"
   
 end
