@@ -34,6 +34,6 @@ end
 
 def aoh_update(aoh, row, key, new_value)
   local_copy_of_aoh = assembled_aoh.dup
-  assembled_aoh[1][:name] = "Joelle van Dyne (PGOAT)"
+  local_copy_of_aoh[1][:name] = "Joelle van Dyne (PGOAT)"
   
 end
