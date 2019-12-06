@@ -33,7 +33,6 @@ def aoh_lookup(aoh, row, key)
 end
 
 def aoh_update(aoh, row, key, new_value)
-  infinite_jest = assembled_aoh.dup
-  infinite_jest[1][:name] = "Joelle van Dyne (PGOAT)"
+  assembled_aoh[1][:name] = "Joelle van Dyne (PGOAT)"
   
 end
