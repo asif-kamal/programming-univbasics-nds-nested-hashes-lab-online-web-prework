@@ -13,9 +13,9 @@ def assembled_aoh
        {:name=>"Pat Monteseian", :occupation=>"Staff"},
        {:name=>"Kate Gompert", :occupation=>"None"},
        {:name=>"Bruce Green", :occupation=>"Fan of Mildred"}] 
+       return
      end
-       infinite_jest
-end
+
 
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
