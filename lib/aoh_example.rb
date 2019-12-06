@@ -33,7 +33,6 @@ def aoh_lookup(aoh, row, key)
 end
 
 def aoh_update(aoh, row, key, new_value)
-  local_copy_of_aoh = assembled_aoh.dup
   local_copy_of_aoh[1][:name] = "Joelle van Dyne (PGOAT)"
   
 end
