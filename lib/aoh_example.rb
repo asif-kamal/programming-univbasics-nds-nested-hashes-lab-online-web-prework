@@ -7,12 +7,14 @@ KATE_G = { name:  "Kate Gompert", occupation: "None" }
 BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 
 def assembled_aoh
-       
+       infinite_jest =
        [{:name=>"Don Gately", :occupation=>"Live-in Staff"},
        {:name=>"Joelle van Dyne", :occupation=>"Radio Personality"},
        {:name=>"Pat Monteseian", :occupation=>"Staff"},
        {:name=>"Kate Gompert", :occupation=>"None"},
        {:name=>"Bruce Green", :occupation=>"Fan of Mildred"}] 
+       
+       infinite_jest
 end
 
 def literal_aoh
